@@ -1,8 +1,10 @@
 import { ReactNode } from 'react';
+
 interface ContainerProps {
     children: ReactNode;
     heading: string;
 }
+
 const Container = ({ children, heading
 }: ContainerProps) => {
     return (

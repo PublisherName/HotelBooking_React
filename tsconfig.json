@@ -16,6 +16,9 @@
       ],
       "#views/*": [
         "./src/views/*"
+      ],
+      "#config": [
+        "./src/config.ts"
       ]
     },
     "target": "ES2020",
